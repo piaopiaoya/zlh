@@ -1,4 +1,4 @@
-package com.example.text_01;
+package com.example.text_01.view;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.bumptech.glide.Glide;
+import com.example.text_01.R;
 import com.example.text_01.adapter.VpAdapter;
 import com.example.text_01.bean.BannerBean;
 import com.example.text_01.fragment.CollFragment;

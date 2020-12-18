@@ -12,7 +12,7 @@ public class NumPresenter implements MainContacrt.getNumPresenter {
     private final NumModel numModel;
 
     public NumPresenter(CollFragment collFragment) {
-
+        //在p城创建m对象
         numModel = new NumModel(this);
         this.collFragment = collFragment;
     }

@@ -1,6 +1,6 @@
 package com.example.text_01.presenter;
 
-import com.example.text_01.MainActivity;
+import com.example.text_01.view.MainActivity;
 import com.example.text_01.bean.BannerBean;
 import com.example.text_01.model.BannerModel;
 import com.example.text_01.net.MainContacrt;
