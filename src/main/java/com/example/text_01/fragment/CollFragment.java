@@ -23,6 +23,8 @@ import java.util.ArrayList;
 
 public class CollFragment extends Fragment implements MainContacrt.getNumView {
 
+    //我现在要开始改代码了哦
+
     private RecyclerView rv_coll;
     private ArrayList<NumBean.StudenlistBean> list;
     private RvBdapter bdapter;
