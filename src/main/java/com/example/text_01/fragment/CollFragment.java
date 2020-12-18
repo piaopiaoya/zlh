@@ -45,9 +45,10 @@ public class CollFragment extends Fragment implements MainContacrt.getNumView {
         rv_coll.setLayoutManager(new LinearLayoutManager(getActivity()));
         list = new ArrayList<>();
         bdapter = new RvBdapter(getActivity(), list);
+        //设置适配器
         rv_coll.setAdapter(bdapter);
 //设置下面的线
-        rv_coll.addItemDecoration(new DividerItemDecoration(getActivity(),DividerItemDecoration.VERTICAL));
+        rv_coll.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
     }
 
     @Override
